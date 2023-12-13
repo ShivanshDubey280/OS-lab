@@ -7,7 +7,6 @@ struct fcfs {
     int wtime;
     int ttime;
 } p[10];
-
 int main() {
     int i, n;
     int totwtime = 0, totttime = 0;
