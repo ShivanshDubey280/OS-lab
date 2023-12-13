@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 void wait(int &x){
     if(x>0) x--;
 }
