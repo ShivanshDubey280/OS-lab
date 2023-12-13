@@ -6,7 +6,6 @@
 void worstFitMemoryManagement() {
     int frag[max], b[max], f[max], i, j, nb, nf, temp, highest = 0;
     static int bf[max], ff[max];
-
     printf("\n\tMemory Management Scheme - Worst Fit");
     printf("\nEnter the number of blocks: ");
     scanf("%d", &nb);
