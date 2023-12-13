@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 struct rr {
     int pno, btime, sbtime, wtime, lst;
 } p[10];
