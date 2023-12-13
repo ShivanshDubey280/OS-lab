@@ -6,7 +6,6 @@ typedef struct {
     int btime;
     int wtime;
 } Process;
-
 int main() {
     int i, j, n, total_waiting_time = 0, total_turnaround_time = 0, total_burst_time = 0;
     Process *p, temp;
