@@ -7,7 +7,6 @@
 void* doSomeThing(void* arg) {
     unsigned long i = 0;
     pthread_t id = pthread_self();
-
     if (pthread_equal(id, tid[0])) {
         printf("First thread processing\n");
     } else {
