@@ -7,7 +7,6 @@ typedef struct {
     int btime;
     int wtime;
 } sp;
-
 int main() {
     int i, j, n;
     int tbm = 0, totwtime = 0, totttime = 0;
