@@ -2,7 +2,6 @@
 #include<stdlib.h> // Include stdlib for system("cls") or system("clear")
 
 #define max 25
-
 void firstFitMemoryManagement() {
     int frag[max], b[max], f[max], i, j, nb, nf, temp;
     static int bf[max], ff[max];
