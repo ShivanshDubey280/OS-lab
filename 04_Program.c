@@ -4,7 +4,6 @@
 int main(int argc, char **argv) {
     DIR *dp;
     struct dirent *link;
-
     dp = opendir(argv[1]);
     printf("\nContents of the directory %s are:\n", argv[1]);
 
