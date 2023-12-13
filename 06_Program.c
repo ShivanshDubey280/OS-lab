@@ -5,7 +5,6 @@
 #include <sys/ipc.h>
 #include <sys/shm.h>
 #include <sys/types.h>
-
 #define SEGSIZE 100
 
 int main(int argc, char *argv[]) {
