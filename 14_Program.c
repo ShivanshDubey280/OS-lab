@@ -2,7 +2,6 @@
 
 int main() {
     int i = 0, j = 0, k = 0, i1 = 0, m, n, rs[30], flag = 1, p[30];
-
     printf("FIFO Page Replacement Algorithm\n");
     printf("Enter the number of frames: ");
     scanf("%d", &n);
