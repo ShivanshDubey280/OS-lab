@@ -3,7 +3,6 @@
 #include<pthread.h>
 #include<stdlib.h>
 #include<unistd.h>
-
 pthread_t tid[2];
 int counter = 0;
 pthread_mutex_t lock;
